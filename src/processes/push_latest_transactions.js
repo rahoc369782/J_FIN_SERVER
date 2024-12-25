@@ -146,7 +146,8 @@ export async function transaction_pushing_process_initialization() {
     if (!final_status["success"]) {
       throw new Error("ENTIRE PROCESS FAILED.");
     }
-    // send_notification(200, final_status["trns_count"]);
+    send_notification(200, final_status["trns_count"]);
+    console.log("Transactions processed successfully");
     return final_status;
   } catch (err) {
     console.error("Error during transaction processing:", err.message);
