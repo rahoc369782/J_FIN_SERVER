@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 export const CONFIG = {
-  TRANSACTION_FILE_PATH: process.env.J_FINANCE_LEDGER_PATH,,
+  TRANSACTION_FILE_PATH: process.env.J_FINANCE_LEDGER_PATH,
   USER: "cretoprof@gmail.com",
   APP_PASSWORD: "bondutvwjwvhruvu",
   GIT_CREDS: {

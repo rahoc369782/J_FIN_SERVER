@@ -1,3 +1,0 @@
-2024/12/24 Opening balance for regular saving account.
-    assets:bank:savings:sbi      200000
-    equity:opening-balance      -200000
